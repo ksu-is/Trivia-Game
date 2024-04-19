@@ -1,0 +1,15 @@
+def genre():
+  print("The categories are: Science \n History \n Pop Culture \n Sports")
+  genre_choice = input("Chose a category: ")
+  if answer == "Science":
+    print("You chose Science")
+ 
+
+
+
+  elif answer == "History":
+  elif answer == "Pop Culture"
+  elif answer == "Sports":
+    
+
+  

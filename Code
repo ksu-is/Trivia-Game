@@ -1,15 +1,64 @@
-def genre():
+total = 0
+def game():
   print("The categories are: Science \n History \n Pop Culture \n Sports")
   genre_choice = input("Chose a category: ")
-  if answer == "Science":
+  if genre_choice == "Science":
     print("You chose Science")
+      print("Your first question is: What element makes up the majority of Earth's air?)
+      answer = input("Is it Oxygen, Nitrogen, Helium, or Carbon Dioxide?)
+      if answer == "Nitrogen":
+        total += 1
+        print("Correct!")
+        print("Your score is now: ", total)
+      else:
+        print("Incorrect")
+  elif print("The categories are: Science \n History \n Pop Culture \n Sports")
+  genre_choice = input("Chose a category: ")
+  if genre_choice == "History":
+    print("You chose History")
+      print("Your first question is: Who was not a world leader during World War II"?)
+      answer = input("Was it Roosevelt, Mussolini, Stalin, or Gorbachev?)
+      if answer == "Gorbachev":
+        total += 1
+        print("Correct!")
+        print("Your score is now: ", total)
+      else:
+        print("Incorrect")
+  elif print("The categories are: Science \n History \n Pop Culture \n Sports")
+  genre_choice = input("Chose a category: ")
+  if genre_choice == "Pop Culture":
+    print("You chose Pop Culture")
+      print("Your first question is: Who is currently topping the Billboard Arttist 100 list"?)
+      answer = input("Is it TOMORROW X TOGETHER, J Cole, Beyonce, or Taylor Swift?")
+      if answer == "TOMORROW X TOGETHER":
+        total += 1
+        print("Correct!")
+        print("Your score is now: ", total)
+      else:
+        print("Incorrect")
+  else print("The categories are: Science \n History \n Pop Culture \n Sports")
+  genre_choice = input("Chose a category: ")
+  if genre_choice == "Sports":
+    print("You chose Sports")
+      print("Your first question is: What team won the World Series last year? (2023 season)")
+      answer = input("Was it the Philadelphia Phillies, the Texas Rangers, the Atlanta Braves, or the Seattle Mariners?")
+      if answer == "the Texas Rangers":
+        total += 1
+        print("Correct!")
+        print("Your score is now: ", total)
+      else:
+        print("Incorrect")
+  print("The game is over!)
+  if total >= 3:
+    print("Congratulations you got ", total, "correct! \n Thanks for playing!")
+  elif total < 3:
+    print("Thanks for playing! /n Your score was" , total, \n "Good luck next time!")
+        
  
 
 
 
-  elif answer == "History":
-  elif answer == "Pop Culture"
-  elif answer == "Sports":
+ 
     
 
   

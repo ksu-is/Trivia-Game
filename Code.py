@@ -1,8 +1,10 @@
 def game():
     global total
     global count
-    while count < 5:
-        genre_choice == ""
+    global genre_choice
+    while count < 4:
+        print("The categories are: Science, History, Pop Culture, and Sports")
+        genre_choice = input("Chose a category: ")
         genre()
     return total
         
@@ -31,7 +33,6 @@ def Science():
             total += 1
             print("Correct!")
             print("Your score is now: ", total)
-            total += 1
             count += 1
         else:
             print("Incorrect")     
@@ -47,7 +48,6 @@ def History():
             total += 1
             print("Correct!")
             print("Your score is now: ", total)
-            total += 1
             count += 1
         else:
             print("Incorrect")     
@@ -64,7 +64,6 @@ def Pop_Culture():
             total += 1
             print("Correct!")
             print("Your score is now: ", total)
-            total += 1
             count += 1
         else:
             print("Incorrect")     
@@ -81,7 +80,6 @@ def Sports():
             total += 1
             print("Correct!")
             print("Your score is now: ", total)
-            total += 1
             count += 1
         else:
             print("Incorrect")     
@@ -90,6 +88,6 @@ def Sports():
 
 total = 0
 count = 0
-print("The categories are: Science, History, Pop Culture, and Sports")
-genre_choice = input("Chose a category: ")
+#print("The categories are: Science, History, Pop Culture, and Sports")
+genre_choice = ""
 game()

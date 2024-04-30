@@ -88,6 +88,6 @@ def Sports():
 
 total = 0
 count = 0
-#print("The categories are: Science, History, Pop Culture, and Sports")
 genre_choice = ""
 game()
+print("Thanks for playing!\nYour final score was: ", total, "out of ", count)
